@@ -1,4 +1,6 @@
-module.exports = function(start, end) {
+'use strict'
+
+module.exports = (start, end) => {
   if (!start || !end) {
     throw new Error('Required arguments: startDate, endDate')
   }
@@ -7,7 +9,11 @@ module.exports = function(start, end) {
     throw new Error('End date cannot come before the start date')
   }
 
-  var dates = [start]
+  const startDate = new Date(Date.parse(start)).toISOString().slice(0,10)
+
+  const dates = [
+    startDate
+  ]
 
   var curDate = start
 
