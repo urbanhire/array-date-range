@@ -1,0 +1,30 @@
+{
+  "name": "uh-date-range-array",
+  "version": "1.0.0",
+  "description": "Create an array of dates.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "date",
+    "date range",
+    "date array",
+    "array",
+    "moment date range",
+    "time"
+  ],
+  "author": "Urbanhire Engineer <dev@urbanhire.com> (https://www.urbanhire.com/)",
+  "license": "MIT",
+  "devDependencies": {
+    "tape": "^4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:urbanhire/uh-date-range-array.git"
+  },
+  "bugs": {
+    "url": "https://github.com/urbanhire/uh-date-range-array"
+  },
+  "homepage": "https://github.com/urbanhire/uh-date-range-array#readme"
+}
