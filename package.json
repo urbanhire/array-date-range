@@ -1,6 +1,6 @@
 {
-  "name": "uh-date-range-array",
-  "version": "1.1.0",
+  "name": "array-date-range",
+  "version": "1.2.0",
   "description": "Create an array of dates.",
   "main": "index.js",
   "scripts": {
@@ -21,10 +21,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:urbanhire/uh-date-range-array.git"
+    "url": "git@github.com:urbanhire/array-date-range.git"
   },
   "bugs": {
-    "url": "https://github.com/urbanhire/uh-date-range-array"
+    "url": "https://github.com/urbanhire/array-date-range"
   },
-  "homepage": "https://github.com/urbanhire/uh-date-range-array#readme"
+  "homepage": "https://github.com/urbanhire/array-date-range#readme"
 }
